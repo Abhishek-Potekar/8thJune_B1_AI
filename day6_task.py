@@ -54,6 +54,9 @@ color_list_2 = set(["Red", "Green"])
 color_list_1.discard("Red")
 print(color_list_1)
 
+### OR ###
+print(color_list_1-color_list_2)
+
 # Q-7 ###
 
 p = set(input())
@@ -83,10 +86,9 @@ print(sorted_list)
 d = {'Student':['Rahul', 'Kishore', 'Vidhya', 'Raakhi'], 
 'Marks':[57,87,67,79]}
 d['Marks']
-max(d['Marks'])
-d['Student']
-h = d['Student'][1]
-print(h)
+m = max(d['Marks'])
+h = d['Marks'].index(m)
+print(d['Student'][a])
 
 
 
